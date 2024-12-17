@@ -1,0 +1,42 @@
+<form action="/register" method="POST" id="add_user" enctype="multipart/form-data">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="">Name</label>
+            <input type="text" name="name" value="" placeholder="enter name">
+        </div>
+        <div class="form-group">
+            <label for="Email" class="">Email</label>
+            <input type="text" name="email" value="" placeholder="enter email">
+        </div>
+        <div class="form-group">
+            <label for="gender" class="">Gender</label>
+            <div class="radio inline">
+                <input type="radio" checked id="radio-2" name="gender" value="Male" >
+                <label for="radio-2" class="radio-label">Male</label>
+            </div>
+            <div class="radio inline">
+                <input type="radio" id="radio-3" name="gender" value="Female" >
+                <label for="radio-3" class="radio-label">Female</label>
+            </div>
+        </div>
+        <div class="form-group">
+          <label for="mobile" class="">Phone</label>
+          <input type="text" name="mobile" value="" placeholder="enter mobile">
+      </div>
+  
+      <div class="form-group">
+        <label for="password" class="">Password</label>
+        <input type="password" name="password" value="" placeholder="enter password">
+    </div>
+    <div class="form-group">
+      <label for="userPic" class="">Upload Pic</label>
+      <input type="file" name="userPic">
+  </div>
+      
+        
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+  
+    </div>
+  </form>
